@@ -4,6 +4,8 @@ import LogIn from "../pages/logIn/LogIn";
 import NotFound from "../pages/notFound/NotFound";
 import SignUp from "../pages/signUp/SignUp";
 import Layout from "../components/layout/Layout";
+import Service from "../components/service/Service";
+import PrivateRoute from "../privateRoute/PrivateRoute";
 
 const router = createBrowserRouter([
     {
@@ -14,6 +16,7 @@ const router = createBrowserRouter([
             {
                 path: "/",
                 element: <Home></Home>,
+                loader:()=>fetch("/data.json")
                
             },
             {
@@ -24,6 +27,11 @@ const router = createBrowserRouter([
                 path: "/login",
                 element: <LogIn></LogIn>
             },
+            {
+                path: "/services/:id",
+                element: <PrivateRoute><Service></Service></PrivateRoute>,
+                loader:() =>fetch("/data.json")
+            }
         ]
     }
 ])

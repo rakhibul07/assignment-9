@@ -24,7 +24,7 @@ const Banner = () => {
     </div>
   </div> 
   <div id="slide2" className="carousel-item relative  w-full">
-   <div className="hero " style={{backgroundImage: 'url(https://i.ibb.co/j48LQc2/birhday.jpg)'}}>
+   <div className="hero " style={{backgroundImage: 'url(https://i.ibb.co/Rzg0kw7/wedding.jpg)'}}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="max-w-md">
@@ -56,7 +56,7 @@ const Banner = () => {
     </div>
   </div> 
   <div id="slide4" className="carousel-item relative  w-full">
-  <div className="hero " style={{backgroundImage: 'url(https://i.ibb.co/nD18NXN/party.jpg)'}}>
+  <div className="hero " style={{backgroundImage: 'url(https://i.ibb.co/J5Bvy8v/e.jpg)'}}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
     <div className="max-w-md">

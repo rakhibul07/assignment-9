@@ -8,7 +8,7 @@ export const AuthContext = createContext(null);
 const googleProvider = new GoogleAuthProvider();
 
 const AuthProvider = ({ children }) => {
-    const [events, setEvents] = useState([]);
+   
     const [user, setUser] = useState({})
     const [loading, setLoading] = useState(true)
 
@@ -51,17 +51,12 @@ const AuthProvider = ({ children }) => {
         }
     }, [])
 
-    useEffect(() => {
-        fetch('./data.json')
-          .then((res) => res.json())
-          .then((data) => setEvents(data));
-      }, []);
+   
 
     //authentication
     const authentication = {
         user,
         loading,
-        events,
         googleLogin,
         createUser,
         login,

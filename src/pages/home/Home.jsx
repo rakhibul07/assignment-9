@@ -1,10 +1,13 @@
 
 
+import { useLoaderData } from "react-router-dom";
 import Banner from "../../components/banner/Banner";
 import Services from "../../components/services/Services";
 
 
 const Home = () => {
+    const services = useLoaderData();
+    console.log(services)
     
    
     
@@ -12,7 +15,7 @@ const Home = () => {
     return (
         <div>
             <Banner></Banner>
-           <Services></Services>
+           <Services services={services}></Services>
            
         </div>
     );

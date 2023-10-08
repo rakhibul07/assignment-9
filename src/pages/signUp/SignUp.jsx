@@ -6,13 +6,15 @@ import toast from 'react-hot-toast';
 
 const SignUp = () => {
   const navigate = useNavigate()
-  const { createUser } = useContext(AuthContext);
+  const { createUser,handleUpdateProfile } = useContext(AuthContext);
   const [hasSpecialCharacter, setHasSpecialCharacter] = useState(false);
 
   const handleSubmit = e => {
     e.preventDefault();
-    const email = e.target.email.value;
-    const password = e.target.password.value;
+    const name = e.target.name.value;
+    const image = e.target.image.value;
+    const email = e.target.email.value
+    const password = e.target.password.value
 
     if (password.length < 6) {
       toast.error("Password must be at least 6 characters");
@@ -25,10 +27,13 @@ const SignUp = () => {
     } else {
       createUser(email, password)
         .then(() => {
-         
-            toast.success("User created successfully")
-            navigate("/login")
-        
+
+         handleUpdateProfile(name,image)
+        .then(()=>{
+          toast.success("User Signed up in successfully")
+          e.target.reset();
+          navigate("/")
+        })
 
                })
         .catch(error => {
@@ -49,6 +54,7 @@ const SignUp = () => {
             <form onSubmit={handleSubmit} className="flex flex-col gap-4">
               <input className="p-2 mt-3 rounded-xl border" type="text" name="name" placeholder="Name" />
               <input className="p-2  rounded-xl border" type="email" name="email" placeholder="Email" />
+              <input className="p-2  rounded-xl border" type="text" name="image" placeholder="Image URL" />
               
               <input className={`p-2 rounded-xl border w-full ${hasSpecialCharacter ? '' : ''}`} type="password" name="password" placeholder="Password" />
               <button className="bg-[#002D74] rounded-xl text-white py-2 hover:scale-105 duration-300" type='submit'>Signup</button>

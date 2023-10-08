@@ -6,24 +6,21 @@ import toast from "react-hot-toast";
 
 const Login = () => {
   const navigate = useNavigate()
-  const {login,handleUpdateProfile} = useContext(AuthContext);
+  const {login} = useContext(AuthContext);
 
   const handleSubmit = e =>{
     e.preventDefault()
-    const name = e.target.name.value;
-    const image = e.target.image.value;
+   
     const email = e.target.email.value
     const password = e.target.password.value
     
     
       login(email,password)
       .then(()=>{
-        handleUpdateProfile(name,image)
-        .then(()=>{
           toast.success("User logged in successfully")
-          navigate("/")
-        })
-       
+          e.target.reset();
+          navigate("/");
+
       })
       .catch(error=>{
         toast.error(error.message)
@@ -42,9 +39,9 @@ const Login = () => {
       <p className="text-xs mt-4 text-[#002D74]">If you are already a member, easily log in</p>
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-      <input className="p-2 mt-3 rounded-xl border" type="text" name="name" placeholder="Name" />
-              <input className="p-2  rounded-xl border" type="email" name="email" placeholder="Email" />
-              <input className="p-2  rounded-xl border" type="text" name="image" placeholder="Image URL" />
+      
+              <input className="p-2 mt-4  rounded-xl border" type="email" name="email" placeholder="Email" />
+              
         
           <input className="p-2 rounded-xl border w-full" type="password" name="password" placeholder="Password"/>
          
