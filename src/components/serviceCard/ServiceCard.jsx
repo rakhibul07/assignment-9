@@ -5,17 +5,13 @@ const serviceCard = ({service}) => {
    
     return (
         <div>
-        <div className="card w-96 bg-base-100 shadow-xl">
-  <figure><img src={"https://i.ibb.co/j48LQc2/birhday.jpg"} alt="Shoes" /></figure>
+        <div className="card  bg-base-100 shadow-xl">
+  <figure><img className="h-48 w-full" src={image} alt="Shoes" /></figure>
   <div className="card-body">
-    <h2 className="card-title">
-      Shoes!
-      <div className="badge badge-secondary">NEW</div>
-    </h2>
+    <h2 className="card-title">{name}</h2>
     <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div className="card-actions justify-end">
-      <div className="badge badge-outline">Fashion</div> 
-      <div className="badge badge-outline">Products</div>
+    <div className="card-actions justify-center">
+      <button className="w-full px-10 py-2 bg-blue-800 text-white font-medium">Details</button>
     </div>
   </div>
 </div>

@@ -64,6 +64,28 @@
         "capacity": 60,
         "contact_email": "babyshower@example.com",
         "discount": "Receive a 10% discount when booking a baby photography session with our partner photographer."
+      },
+      {
+        "id": 7,
+        "name": "Baby Shower",
+        "image": "https://i.ibb.co/j48LQc2/birhday.jpg",
+        "description": "Welcome the arrival of a new baby with a heartwarming baby shower. This package includes a community center venue, a gender-neutral theme, and an Amazon Baby Registry. Contact us at babyshower@example.com for inquiries. Price: $500",
+        "date": "2023-07-12",
+        "location": "Community Center",
+        "capacity": 60,
+        "contact_email": "babyshower@example.com",
+        "discount": "Receive a 10% discount when booking a baby photography session with our partner photographer."
+      },
+      {
+        "id": 8,
+        "name": "Baby Shower",
+        "image": "https://i.ibb.co/j48LQc2/birhday.jpg",
+        "description": "Welcome the arrival of a new baby with a heartwarming baby shower. This package includes a community center venue, a gender-neutral theme, and an Amazon Baby Registry. Contact us at babyshower@example.com for inquiries. Price: $500",
+        "date": "2023-07-12",
+        "location": "Community Center",
+        "capacity": 60,
+        "contact_email": "babyshower@example.com",
+        "discount": "Receive a 10% discount when booking a baby photography session with our partner photographer."
       }
     ]
 
