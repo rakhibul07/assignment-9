@@ -4,9 +4,10 @@ import { AuthContext } from "../../Provider/AuthProvider";
 
 const links = <>
 
-                 <li><NavLink to="/">Home</NavLink></li>
-                 <li><NavLink to="/signup">Signup</NavLink></li>
-                 <li><NavLink to="/login">Login</NavLink></li>
+                 <li><NavLink className={({isActive})=>`font-medium text-lg ${isActive? "text-[#FF444A]" : "text-black"}`} to="/">Home</NavLink></li>
+                 <li><NavLink className={({isActive})=>`font-medium text-lg ${isActive? "text-[#FF444A] " : "text-black"}`} to="/signup">Signup</NavLink></li>
+                 <li><NavLink className={({isActive})=>`font-medium text-lg ${isActive? "text-[#FF444A] " : "text-black"}`} to="/about">About</NavLink></li>
+                 <li><NavLink className={({isActive})=>`font-medium text-lg ${isActive? "text-[#FF444A] " : "text-black"}`} to="/venue">Venue</NavLink></li>
                  
 
                  </>
@@ -38,7 +39,7 @@ const NavBar = () => {
                 <div className="navbar-end">
 
                     {
-                        user?.email ? <div className="dropdown dropdown-end">
+                        user?<div className="dropdown dropdown-end">
                             <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
                                 <div className="w-10 rounded-full">
                                     <img src={user.photoURL} />

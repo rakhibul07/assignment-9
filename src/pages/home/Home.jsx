@@ -7,11 +7,7 @@ import Services from "../../components/services/Services";
 
 const Home = () => {
     const services = useLoaderData();
-    console.log(services)
-    
-   
-    
-   
+
     return (
         <div>
             <Banner></Banner>
