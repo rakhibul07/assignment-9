@@ -15,7 +15,7 @@ const Login = () => {
     const email = e.target.email.value
     const password = e.target.password.value
     
-
+    
       login(email,password)
       .then(()=>{
         handleUpdateProfile(name,image)
