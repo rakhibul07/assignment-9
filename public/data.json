@@ -3,27 +3,36 @@
     "id": 1,
     "name": "Wedding",
     "image": "https://i.ibb.co/Rzg0kw7/wedding.jpg",
-    "description": "Celebrate your special day with a beautiful wedding ceremony and reception. This package includes an elegant venue, floral decorations, gourmet catering, and a live band and DJ for entertainment. Contact us at wedding@example.com for inquiries. ",
+    "description": "Celebrate your special day with a beautiful wedding ceremony and reception. This package includes an elegant venue, floral decorations, gourmet catering, and a live band and DJ for entertainment. Contact us at wedding@example.com for inquiries.",
     "short_description": "Elegant wedding package with venue, catering, and entertainment.",
     "date": "2023-10-20",
     "location": "Anytown, USA",
     "capacity": 150,
     "contact_email": "wedding@example.com",
     "discount": "Book before June 30, 2023, and receive a 10% discount.",
-    "price": 120 
+    "price": 120,
+    "review": "We had an amazing wedding experience with this package. The venue was stunning, and the catering was delicious. The live band and DJ kept the party going all night!",
+    "rating": 5,
+    "profile_pic": "https://i.ibb.co/C8Bfvrs/image.jpg",
+    "reviewer": "John"
   },
   {
     "id": 2,
     "name": "Birthday Party",
     "image": "https://i.ibb.co/mTTLvtq/birth.jpg",
-    "description": "Throw a memorable birthday bash for yourself or a loved one. This package includes an exclusive use of the City Park Pavilion, themed decorations, a delicious chocolate cake, and entertainment by a magician and clown. Contact us at birthday@example.com for inquiries. ",
+    "description": "Throw a memorable birthday bash for yourself or a loved one. This package includes an exclusive use of the City Park Pavilion, themed decorations, a delicious chocolate cake, and entertainment by a magician and clown. Contact us at birthday@example.com for inquiries.",
     "short_description": "Fun birthday package with exclusive pavilion, cake, and entertainment.",
     "date": "2023-11-15",
     "location": "City Park Pavilion",
     "capacity": 50,
     "contact_email": "birthday@example.com",
     "discount": "Book for a weekday celebration and receive a 10% discount.",
-    "price": 90 
+    "price": 90,
+    "review": 
+    "We had a blast at the birthday party! The pavilion was a great venue choice, and the magician and clown were entertaining. The cake was a highlight! Amazing experience, unforgettable memories.",
+    "rating": 4,
+    "profile_pic": "https://i.ibb.co/ZMWRymd/images.jpg",
+    "reviewer": "Emily"
   },
   {
     "id": 3,
@@ -36,7 +45,11 @@
     "capacity": 80,
     "contact_email": "anniversary@example.com",
     "discount": "Book in advance and receive a complimentary bottle of champagne.",
-    "price": 150 
+    "price": 150,
+    "review": "Our anniversary celebration was perfect! The hotel ballroom was stunning, and the live band added to the elegance. We loved the complimentary champagne!",
+    "rating": 5,
+    "profile_pic": "https://i.ibb.co/GWFSp6s/pro1.jpg",
+    "reviewer": "Michael "
   },
   {
     "id": 4,
@@ -49,32 +62,44 @@
     "capacity": 30,
     "contact_email": "retirement@example.com",
     "discount": "Enjoy a 15% discount for group bookings from your office.",
-    "price": 80
+    "price": 80,
+    "review": "Our colleague's retirement party was emotional and heartwarming. The office conference room worked well for the intimate gathering.",
+    "rating": 4,
+    "profile_pic": "https://i.ibb.co/Bsb4xsV/pro2.jpg",
+    "reviewer": "Mark"
   },
   {
     "id": 5,
     "name": "Engagement Party",
     "image": "https://i.ibb.co/zHVGxbx/engage.jpg",
-    "description": "Celebrate the beginning of a beautiful journey with a romantic engagement party. This package includes a rooftop lounge venue, a rustic chic theme, and a professional engagement photoshoot. Contact us at engagement@example.com for inquiries. ",
+    "description": "Celebrate the beginning of a beautiful journey with a romantic engagement party. This package includes a rooftop lounge venue, a rustic chic theme, and a professional engagement photoshoot. Contact us at engagement@example.com for inquiries.",
     "short_description": "Romantic engagement party on a rooftop with a chic theme.",
     "date": "2023-08-25",
     "location": "Rooftop Lounge",
     "capacity": 40,
     "contact_email": "engagement@example.com",
     "discount": "Book before July 31, 2023, and receive a complimentary engagement photo album.",
-    "price": 110 
+    "price": 110,
+    "review": "Our engagement party was so romantic, and the rooftop venue had amazing views. The engagement photoshoot was a lovely addition!",
+    "rating": 5,
+    "profile_pic": "https://i.ibb.co/Jk4wycP/p2.jpg",
+    "reviewer": "David "
   },
   {
     "id": 6,
     "name": "Baby Shower",
     "image": "https://i.ibb.co/fqzC5kY/baby.jpg",
-    "description": "Welcome the arrival of a new baby with a heartwarming baby shower. This package includes a community center venue, a gender-neutral theme, and an Amazon Baby Registry. Contact us at babyshower@example.com for inquiries. ",
+    "description": "Welcome the arrival of a new baby with a heartwarming baby shower. This package includes a community center venue, a gender-neutral theme, and an Amazon Baby Registry. Contact us at babyshower@example.com for inquiries.",
     "short_description": "Heartwarming baby shower in a community center.",
     "date": "2023-07-12",
     "location": "Community Center",
     "capacity": 60,
     "contact_email": "babyshower@example.com",
     "discount": "Receive a 10% discount when booking a baby photography session with our partner photographer.",
-    "price": 95 
+    "price": 95,
+    "review": "The baby shower was lovely, and the community center was spacious. We appreciated the Amazon Baby Registry option!",
+    "rating": 4,
+    "profile_pic": "https://i.ibb.co/sFRMD70/p4.jpg",
+    "reviewer": "Sophie"
   }
 ]

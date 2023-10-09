@@ -1,6 +1,7 @@
 import { MdLocationPin } from 'react-icons/md'
 import { BsCurrencyDollar } from 'react-icons/bs'
 import { Link } from 'react-router-dom';
+import Review from '../review/Review';
 
 const serviceCard = ({service}) => {
     const {id,name,image,location,price,short_description} = service;
@@ -31,7 +32,8 @@ const serviceCard = ({service}) => {
       <Link to={`/services/${id}`}><button className="w-full px-32 py-2 bg-pink-700 text-white font-medium rounded-md ">Details</button></Link>
     </div>
   </div>
-</div>
+         </div>
+
         </div>
     );
 };
