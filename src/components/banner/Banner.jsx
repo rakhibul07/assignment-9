@@ -2,7 +2,7 @@ const Banner = () => {
     return (
         <div >
            <div className="carousel w-full h-[80vh] ">
-  <div id="slide1" className="carousel-item relative  w-full pt-2 md:pt-4">
+  <div id="slide1" className="carousel-item relative  w-full  md:pt-8">
   <div className="hero " style={{backgroundImage: 'url(https://i.ibb.co/j48LQc2/birhday.jpg)'}}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
@@ -15,7 +15,7 @@ const Banner = () => {
     </div>
   </div> 
 
-  <div id="slide2" className="carousel-item relative pt-2 md:pt-4 w-full">
+  <div id="slide2" className="carousel-item relative  md:pt-8 w-full">
    <div className="hero " style={{backgroundImage: 'url(https://i.ibb.co/Rzg0kw7/wedding.jpg)'}}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
@@ -28,7 +28,7 @@ const Banner = () => {
     </div>
   </div> 
 
-  <div id="slide3" className="carousel-item relative pt-2 md:pt-4  w-full">
+  <div id="slide3" className="carousel-item relative  md:pt-8  w-full">
   <div className="hero " style={{backgroundImage: 'url(https://i.ibb.co/vBT8yYM/shower.jpg)'}}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
@@ -41,7 +41,7 @@ const Banner = () => {
     </div>
   </div> 
 
-  <div id="slide4" className="carousel-item relative pt-2 md:pt-4  w-full">
+  <div id="slide4" className="carousel-item relative  md:pt-8  w-full">
   <div className="hero " style={{backgroundImage: 'url(https://i.ibb.co/J5Bvy8v/e.jpg)'}}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="hero-content text-center text-neutral-content">
