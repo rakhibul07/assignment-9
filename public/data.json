@@ -15,7 +15,7 @@
     "rating": 5,
     "profile_pic": "https://i.ibb.co/C8Bfvrs/image.jpg",
     "reviewer": "John",
-    "fade": "fade-right"
+    "fade": "fade-up"
   },
   {
     "id": 2,
@@ -34,7 +34,7 @@
     "rating": 4,
     "profile_pic": "https://i.ibb.co/ZMWRymd/images.jpg",
     "reviewer": "Emily",
-    "fade": "fade-left"
+    "fade": "fade-up"
   },
   {
     "id": 3,
@@ -52,7 +52,7 @@
     "rating": 5,
     "profile_pic": "https://i.ibb.co/GWFSp6s/pro1.jpg",
     "reviewer": "Michael ",
-    "fade": "fade-right"
+    "fade": "fade-up"
   },
   {
     "id": 4,
@@ -70,7 +70,7 @@
     "rating": 4,
     "profile_pic": "https://i.ibb.co/Bsb4xsV/pro2.jpg",
     "reviewer": "Mark",
-    "fade": "fade-left"
+    "fade": "fade-up"
   },
   {
     "id": 5,
@@ -88,7 +88,7 @@
     "rating": 5,
     "profile_pic": "https://i.ibb.co/Jk4wycP/p2.jpg",
     "reviewer": "David ",
-    "fade": "fade-right"
+    "fade": "fade-up"
   },
   {
     "id": 6,
@@ -106,6 +106,6 @@
     "rating": 4,
     "profile_pic": "https://i.ibb.co/sFRMD70/p4.jpg",
     "reviewer": "Sophie",
-    "fade": "fade-left"
+    "fade": "fade-up"
   }
 ]

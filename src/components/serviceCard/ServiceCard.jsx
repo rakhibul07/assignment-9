@@ -14,8 +14,8 @@ const ServiceCard = ({service}) => {
     const {id,name,image,location,price,short_description,fade} = service;
    
     return (
-        <div>
-        <div className="card bg-pink-200 shadow-xl cursor-pointer transform hover:scale-105 duration-500" data-aos={fade}>
+        <div style={{ overflow: 'hidden' }}>
+        <div className="card bg-pink-200 shadow-xl cursor-pointer transform hover:scale-105 duration-500 " data-aos={fade}>
   <figure><img className="h-52 w-full" src={image} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">{name}</h2>
