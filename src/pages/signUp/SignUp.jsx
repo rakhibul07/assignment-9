@@ -52,11 +52,11 @@ const SignUp = () => {
             <p className="text-xs mt-4 text-[#002D74]">If you are new, please signup</p>
 
             <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-              <input className="p-2  mt-3 rounded-xl border" type="text" name="name" placeholder="Name" />
-              <input className="p-2  rounded-xl border" type="email" name="email" placeholder="Email" />
-              <input className="p-2  rounded-xl border" type="text" name="image" placeholder="Image URL" />
+              <input className="p-2  mt-3 rounded-xl border" type="text" name="name" placeholder="Name" required />
+              <input className="p-2  rounded-xl border" type="email" name="email" placeholder="Email" required/>
+              <input className="p-2  rounded-xl border" type="text" name="image" placeholder="Image URL" required/>
               
-              <input className={`p-2 rounded-xl border w-full ${hasSpecialCharacter ? '' : ''}`} type="password" name="password" placeholder="Password" />
+              <input className={`p-2 rounded-xl border w-full ${hasSpecialCharacter ? '' : ''}`} type="password" name="password" placeholder="Password" required/>
               <button className="bg-pink-800 rounded-xl text-white py-2 hover:scale-105 duration-300" type='submit'>Signup</button>
             </form>
 

@@ -22,9 +22,8 @@ const Login = () => {
           navigate("/");
 
       })
-      .catch(error=>{
-        toast.error(error.message)
-        
+      .catch(()=>{
+        toast.error("Email and Password doesn't match") 
       })
     
   }
@@ -40,10 +39,10 @@ const Login = () => {
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-4">
       
-              <input className="p-2 mt-4  rounded-xl border" type="email" name="email" placeholder="Email" />
+              <input className="p-2 mt-4  rounded-xl border" type="email" name="email" placeholder="Email" required/>
               
         
-          <input className="p-2 rounded-xl border w-full" type="password" name="password" placeholder="Password"/>
+          <input className="p-2 rounded-xl border w-full" type="password" name="password" placeholder="Password" required/>
          
         
         <button className="bg-pink-900 rounded-xl text-white py-2 hover:scale-105 duration-300">Login</button>
