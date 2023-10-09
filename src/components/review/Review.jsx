@@ -4,7 +4,7 @@ import ReviewCard from "./ReviewCard";
 
 const Review = ({services}) => {
    
-    console.log(services)
+    
     return (
         <div>
             <h2 className='text-3xl text-pink-600 text-center mt-10 mb-6 font-medium'>Customer's Review</h2>

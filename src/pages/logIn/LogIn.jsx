@@ -23,7 +23,7 @@ const Login = () => {
 
       })
       .catch(()=>{
-        toast.error("Email and Password doesn't match") 
+        toast.error("Email and Password doesn't match or Didn't signup") 
       })
     
   }
