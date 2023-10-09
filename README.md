@@ -4,7 +4,7 @@
 
 This is a web application for event management services, specializing in a variety of events such as weddings, birthdays, anniversaries, engagements, retirement parties, and baby showers. The website includes authentication, private routes, service details pages, and more.
 
-## Live Link  [Click Here](https://www.example.com)
+## Live Link  [Click Here](https://assignment-9-ee090.web.app/)
 
 ## Features and Functionality
 
