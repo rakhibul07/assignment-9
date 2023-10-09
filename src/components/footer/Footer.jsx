@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-
-
 const Footer = () => {
+
     return (
         <div >
          <footer className="footer footer-center p-10  bg-pink-200 text-base-content rounded">
@@ -10,7 +9,6 @@ const Footer = () => {
     <Link to="/signup">Signup</Link>
     <Link to="/faq">FAQ</Link>
     <Link to="gallery">Gallery</Link>
-  
   </nav> 
   <nav>
     <div className="grid grid-flow-col gap-4">

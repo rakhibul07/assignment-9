@@ -8,9 +8,8 @@ const links = <>
                  <li><NavLink className={({isActive})=>`font-medium text-lg ${isActive? "text-[#FF444A] " : "text-black"}`} to="/signup">Signup</NavLink></li>
                  <li><NavLink className={({isActive})=>`font-medium text-lg ${isActive? "text-[#FF444A] " : "text-black"}`} to="/faq">FAQ</NavLink></li>
                  <li><NavLink className={({isActive})=>`font-medium text-lg ${isActive? "text-[#FF444A] " : "text-black"}`} to="/gallery">Gallery</NavLink></li>
-                 
-
                  </>
+                 
 const NavBar = () => {
     const {user,logOut} = useContext(AuthContext);
   

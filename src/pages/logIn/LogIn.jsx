@@ -14,13 +14,11 @@ const Login = () => {
     const email = e.target.email.value
     const password = e.target.password.value
     
-    
       login(email,password)
       .then(()=>{
           toast.success("User logged in successfully")
           e.target.reset();
           navigate("/");
-
       })
       .catch(()=>{
         toast.error("Email and Password doesn't match or Didn't signup") 

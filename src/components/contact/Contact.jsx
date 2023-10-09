@@ -25,10 +25,10 @@ const Contact = () => {
             </h1>
             <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-justify">
             Have questions or need assistance with planning your event? Feel
-              free to get in touch with us! Whether it's a wedding, corporate
+              free to get in touch with us! Whether its a wedding, corporate
               gathering, or any special occasion, our dedicated team is here to
               help you create a memorable experience. Use the form below to send
-              us a message, and we'll respond as soon as possible.
+              us a message, and we will respond as soon as possible.
             </p>
           </div>
           <form onSubmit={handleSubmit} className="lg:w-1/2 md:w-2/3 mx-auto">

@@ -4,7 +4,6 @@ import auth from '../firebase/firebase.config';
 import PropTypes from 'prop-types';
 
 export const AuthContext = createContext(null);
-
 const googleProvider = new GoogleAuthProvider();
 
 const AuthProvider = ({ children }) => {
@@ -29,18 +28,19 @@ const AuthProvider = ({ children }) => {
         setLoading(true)
         return signInWithEmailAndPassword(auth,email,password)
     }
-
+    //update profile
     const handleUpdateProfile = (name, photo) => {
         return updateProfile(auth.currentUser, {
             displayName: name, photoURL: photo
         })
     }
         
-    // to sign out user
+    // sign out user
     const logOut = () => {
         return signOut(auth)
     }
 
+    //observer
      useEffect(() => {
         const unSubscribe = onAuthStateChanged(auth, (user) => {
             setUser(user)

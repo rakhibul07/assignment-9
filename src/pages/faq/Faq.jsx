@@ -1,5 +1,3 @@
-
-
 const Faq = () => {
     return (
         <div className=" bg-pink-200 flex flex-col justify-center items-center min-h-screen ">
@@ -32,7 +30,7 @@ const Faq = () => {
                 </div>
               </summary>
               <p className="text-xs pt-3">
-                To book our event management services, you can get in touch with us through our website's contact form or give us a call. We'll schedule a consultation to discuss your event requirements and provide you with a customized plan.
+                To book our event management services, you can get in touch with us through our websites contact form or give us a call. We will schedule a consultation to discuss your event requirements and provide you with a customized plan.
               </p>
             </details>
             <details className="border border-slate-200 rounded pt-2 pb-3 px-3 relative open:shadow-lg mb-1 bg-none open:bg-white duration-300">
@@ -80,7 +78,7 @@ const Faq = () => {
                 </div>
               </summary>
               <p className="text-xs pt-3">
-                Yes, we offer flexible event packages that can be tailored to your specific budget and requirements. During our consultation, we'll discuss your budget and work with you to create a personalized package that meets your needs while staying within your budget constraints.
+                Yes, we offer flexible event packages that can be tailored to your specific budget and requirements. During our consultation, we will discuss your budget and work with you to create a personalized package that meets your needs while staying within your budget constraints.
               </p>
             </details>
             <details className="border border-slate-200 rounded pt-2 pb-3 px-3 relative open:shadow-lg mb-1 bg-none open:bg-white duration-300">
@@ -128,7 +126,7 @@ const Faq = () => {
                 </div>
               </summary>
               <p className="text-xs pt-3">
-                Yes, we offer event planning consultations to discuss your event ideas, requirements, and expectations. During the consultation, we'll provide you with insights and recommendations to create a memorable event.
+                Yes, we offer event planning consultations to discuss your event ideas, requirements, and expectations. During the consultation, we will provide you with insights and recommendations to create a memorable event.
               </p>
             </details>
            
