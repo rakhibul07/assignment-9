@@ -2,15 +2,15 @@
 
 const Faq = () => {
     return (
-        <div className=" bg-pink-400 flex flex-col justify-center items-center h-[90vh]">
-       
-        <section className="bg-white w-4/5 px-6 pb-8 pt-10 rounded-lg flex justify-between flex-row">
-          <div className="w-2/6">
-            <p className="text-xl font-semibold pr-5">
-              Frequently Asked Questions
+        <div className=" bg-pink-400 flex flex-col justify-center items-center min-h-screen ">
+      
+        <section className="bg-white w-4/5 px-6 my-10 pb-8 pt-10 rounded-lg md:flex justify-between ">
+          <div className="lg:w-2/6 py-2">
+            <p className="text-lg md:text-xl font-semibold ">
+              Frequently Asked Questions ?
             </p>
           </div>
-          <div className="w-3/4">
+          <div className="lg:w-3/4">
             <details className="border border-slate-200 rounded pt-2 pb-3 px-3 relative open:shadow-lg mb-1 bg-none open:bg-white duration-300">
               <summary className="list-none font-semibold relative text-sm cursor-pointer pr-7">
                 How do I book your event management services?
