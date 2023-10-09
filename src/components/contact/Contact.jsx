@@ -1,9 +1,9 @@
 
 const Contact = () => {
     return (
-        <div className="mt-12">
-    f
-      <section className=" body-font relative bg-pink-100">
+        <div className="mt-12 mx-5 lg:mx-0 ">
+    
+      <section className=" body-font relative bg-pink-100 rounded-md shadow-md">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
@@ -21,7 +21,7 @@ const Contact = () => {
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
                 <div className="relative">
-                  <label  className="leading-7 text-sm text-gray-600">
+                  <label  className="text-sm text-gray-600">
                     Name
                   </label>
                   <input
@@ -36,7 +36,7 @@ const Contact = () => {
                 <div className="relative">
                   <label
                     
-                    className="leading-7 text-sm text-gray-600"
+                    className="text-sm text-gray-600"
                   >
                     Email
                     </label>
@@ -52,7 +52,7 @@ const Contact = () => {
                 <div className="relative">
                   <label
                     
-                    className="leading-7 text-sm text-gray-600"
+                    className="text-sm text-gray-600"
                   >
                     Message
                   </label>
