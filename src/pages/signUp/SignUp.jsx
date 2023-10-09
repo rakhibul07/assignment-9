@@ -46,18 +46,18 @@ const SignUp = () => {
   return (
     <>
       <div className=" flex h-full py-5 px-5 lg:min-h-screen justify-center items-center bg-pink-100 ">
-        <div className="bg-gray-100  w-full   lg:w-fit rounded-2xl shadow-lg py-5">
+        <div className="bg-pink-200  w-full   lg:w-fit rounded-2xl shadow-lg py-5">
           <div className="px-8 md:px-16">
             <h2 className="font-bold text-2xl text-[#002D74]">Signup</h2>
             <p className="text-xs mt-4 text-[#002D74]">If you are new, please signup</p>
 
             <form onSubmit={handleSubmit} className="flex flex-col gap-4">
-              <input className="p-2 mt-3 rounded-xl border" type="text" name="name" placeholder="Name" />
+              <input className="p-2  mt-3 rounded-xl border" type="text" name="name" placeholder="Name" />
               <input className="p-2  rounded-xl border" type="email" name="email" placeholder="Email" />
               <input className="p-2  rounded-xl border" type="text" name="image" placeholder="Image URL" />
               
               <input className={`p-2 rounded-xl border w-full ${hasSpecialCharacter ? '' : ''}`} type="password" name="password" placeholder="Password" />
-              <button className="bg-[#002D74] rounded-xl text-white py-2 hover:scale-105 duration-300" type='submit'>Signup</button>
+              <button className="bg-pink-800 rounded-xl text-white py-2 hover:scale-105 duration-300" type='submit'>Signup</button>
             </form>
 
             <div className="mt-2 grid grid-cols-3 items-center text-gray-400">

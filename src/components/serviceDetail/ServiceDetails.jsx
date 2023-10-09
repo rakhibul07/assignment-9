@@ -4,8 +4,8 @@ const ServiceDetails = ({ service }) => {
     const { name, description, image, date, location, capacity, contact_email, discount, price } = service;
 
     return (
-        <div className='bg-pink-100'>
-            <div className='md:flex justify-center gap-6'>
+        <div className='bg-pink-100 px-5 py-4 lg:px-0 lg:py-0'>
+            <div className='md:flex justify-center items-center gap-6'>
                 <img className='h-[75vh] md:w-1/2' src={image} alt={name} />
                 <div className='text-justify px-4 py-4'>
                     <h1 className='text-2xl font-semibold'>{name}</h1>

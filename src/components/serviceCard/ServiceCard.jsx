@@ -8,7 +8,7 @@ const serviceCard = ({service}) => {
    
     return (
         <div>
-        <div className="card bg-pink-100  shadow-xl cursor-pointer transform hover:scale-105 duration-500">
+        <div className="card bg-pink-200 shadow-xl cursor-pointer transform hover:scale-105 duration-500">
   <figure><img className="h-52 w-full" src={image} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">{name}</h2>

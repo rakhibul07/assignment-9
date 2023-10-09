@@ -32,7 +32,7 @@ const Login = () => {
         <>
             <div className="flex h-full py-10 px-5 lg:min-h-screen justify-center items-center bg-pink-100">
   
-  <div className="bg-gray-100  w-full lg:w-fit rounded-2xl shadow-lg py-5 ">
+  <div className="bg-pink-200 w-full lg:w-fit rounded-2xl shadow-lg py-5 ">
   
     <div className="px-8 md:px-16">
       <h2 className="font-bold text-2xl text-[#002D74]">Login</h2>
@@ -46,7 +46,7 @@ const Login = () => {
           <input className="p-2 rounded-xl border w-full" type="password" name="password" placeholder="Password"/>
          
         
-        <button className="bg-green-900 rounded-xl text-white py-2 hover:scale-105 duration-300">Login</button>
+        <button className="bg-pink-900 rounded-xl text-white py-2 hover:scale-105 duration-300">Login</button>
       </form>
 
       <div className="mt-2 grid grid-cols-3 items-center text-gray-400">

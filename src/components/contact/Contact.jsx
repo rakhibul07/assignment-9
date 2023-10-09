@@ -1,9 +1,23 @@
+import toast from "react-hot-toast";
 
 const Contact = () => {
+  const handleSubmit = e =>{
+    e.preventDefault()
+    const name = e.target.name.value
+    const email = e.target.email.value
+    const message = e.target.message.value
+    console.log(name,email,message)
+    
+    if(name && email && message){
+      toast.success("Successfully sent the message")
+      e.target.reset()
+    }
+    
+  }
     return (
         <div className="mt-12 mx-5 lg:mx-0 ">
     
-      <section className=" body-font relative bg-pink-100 rounded-md shadow-md">
+      <section className=" body-font relative bg-pink-200 rounded-md shadow-md">
         <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-12">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">
@@ -17,7 +31,7 @@ const Contact = () => {
               us a message, and we'll respond as soon as possible.
             </p>
           </div>
-          <div className="lg:w-1/2 md:w-2/3 mx-auto">
+          <form onSubmit={handleSubmit} className="lg:w-1/2 md:w-2/3 mx-auto">
             <div className="flex flex-wrap -m-2">
               <div className="p-2 w-1/2">
                 <div className="relative">
@@ -28,7 +42,7 @@ const Contact = () => {
                     type="text"
                     id="name"
                     name="name"
-                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-pink-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"required
                   />
                 </div>
               </div>
@@ -44,7 +58,7 @@ const Contact = () => {
                     type="email"
                     id="email"
                     name="email"
-                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-pink-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"required
                   />
                 </div>
               </div>
@@ -59,12 +73,12 @@ const Contact = () => {
                   <textarea
                     id="message"
                     name="message"
-                    className="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+                    className="w-full bg-pink-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"required
                   ></textarea>
                 </div>
               </div>
               <div className="p-2 w-full">
-                <button className="flex mx-auto text-white  border-0 py-2 px-20 focus:outline-none bg-pink-800 rounded text-lg">
+                <button  type="submit" className="flex mx-auto text-white  border-0 py-2 px-20 focus:outline-none bg-pink-800 rounded text-lg">
                   Send
                 </button>
               </div>
@@ -72,7 +86,7 @@ const Contact = () => {
              
              
             </div>
-          </div>
+          </form>
         </div>
       </section>
    

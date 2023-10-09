@@ -4,7 +4,7 @@ const Gallery = () => {
     return (
         <div>
             <div className="container mx-auto">
-    <div className="grid-cols-3 p-10 lg:p-20 space-y-2 bg-pink-100 lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3">
+    <div className="grid-cols-3 p-10 lg:p-20 space-y-2 bg-pink-200s lg:space-y-0 lg:grid lg:gap-3 lg:grid-rows-3">
         <div className="w-full rounded">
             <img src="https://i.ibb.co/7RF70cY/couple-1.jpg"
                 alt="image" />

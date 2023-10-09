@@ -7,7 +7,7 @@ const ReviewCard = ({service}) => {
     return (
         <>
           
-            <div className="flex flex-col gap-4 bg-pink-100 p-4 rounded-md shadow-md cursor-pointer transform hover:scale-105 duration-500">
+            <div className="flex flex-col gap-4 bg-pink-200 p-4 rounded-md shadow-md cursor-pointer transform hover:scale-105 duration-500">
                 
                 <div className="flex justify justify-between">
                     <div className="flex justify-between items-center gap-4">
