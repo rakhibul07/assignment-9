@@ -15,7 +15,7 @@ const Contact = () => {
     
   }
     return (
-        <div className="mt-12 mx-5 lg:mx-0 ">
+        <div className="mt-12 mx-5 pb-4 lg:mx-0 ">
     
       <section className=" body-font relative bg-pink-200 rounded-md shadow-md">
         <div className="container px-5 py-24 mx-auto">

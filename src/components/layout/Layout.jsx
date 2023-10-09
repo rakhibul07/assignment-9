@@ -5,14 +5,14 @@ import { Toaster } from 'react-hot-toast'
 
 const Layout = () => {
     return (
-        <div className="bg-pink-100 lg:px-10 ">
-         
+        < >
           <Navbar></Navbar>
+          <div className="bg-pink-100 lg:px-10 ">
             <Outlet></Outlet>
-          
+          </div>
             <Footer></Footer>
             <Toaster></Toaster>
-        </div>
+        </>
     );
 };
 
