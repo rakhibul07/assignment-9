@@ -1,5 +1,7 @@
 # Event Management Website
 
+## Website Name: Eventique
+
 ## Overview
 
 This is a web application for event management services, specializing in a variety of events such as weddings, birthdays, anniversaries, engagements, retirement parties, and baby showers. The website includes authentication, private routes, service details pages, and more.
