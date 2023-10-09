@@ -14,7 +14,8 @@
     "review": "We had an amazing wedding experience with this package. The venue was stunning, and the catering was delicious. The live band and DJ kept the party going all night!",
     "rating": 5,
     "profile_pic": "https://i.ibb.co/C8Bfvrs/image.jpg",
-    "reviewer": "John"
+    "reviewer": "John",
+    "fade": "fade-right"
   },
   {
     "id": 2,
@@ -32,7 +33,8 @@
     "We had a blast at the birthday party! The pavilion was a great venue choice, and the magician and clown were entertaining. The cake was a highlight! Amazing experience, unforgettable memories.",
     "rating": 4,
     "profile_pic": "https://i.ibb.co/ZMWRymd/images.jpg",
-    "reviewer": "Emily"
+    "reviewer": "Emily",
+    "fade": "fade-left"
   },
   {
     "id": 3,
@@ -49,7 +51,8 @@
     "review": "Our anniversary celebration was perfect! The hotel ballroom was stunning, and the live band added to the elegance. We loved the complimentary champagne!",
     "rating": 5,
     "profile_pic": "https://i.ibb.co/GWFSp6s/pro1.jpg",
-    "reviewer": "Michael "
+    "reviewer": "Michael ",
+    "fade": "fade-right"
   },
   {
     "id": 4,
@@ -66,7 +69,8 @@
     "review": "Our colleague's retirement party was emotional and heartwarming. The office conference room worked well for the intimate gathering.",
     "rating": 4,
     "profile_pic": "https://i.ibb.co/Bsb4xsV/pro2.jpg",
-    "reviewer": "Mark"
+    "reviewer": "Mark",
+    "fade": "fade-left"
   },
   {
     "id": 5,
@@ -83,7 +87,8 @@
     "review": "Our engagement party was so romantic, and the rooftop venue had amazing views. The engagement photoshoot was a lovely addition!",
     "rating": 5,
     "profile_pic": "https://i.ibb.co/Jk4wycP/p2.jpg",
-    "reviewer": "David "
+    "reviewer": "David ",
+    "fade": "fade-right"
   },
   {
     "id": 6,
@@ -100,6 +105,7 @@
     "review": "The baby shower was lovely, and the community center was spacious. We appreciated the Amazon Baby Registry option!",
     "rating": 4,
     "profile_pic": "https://i.ibb.co/sFRMD70/p4.jpg",
-    "reviewer": "Sophie"
+    "reviewer": "Sophie",
+    "fade": "fade-left"
   }
 ]

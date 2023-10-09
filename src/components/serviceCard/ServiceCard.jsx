@@ -1,14 +1,21 @@
 import { MdLocationPin } from 'react-icons/md'
 import { BsCurrencyDollar } from 'react-icons/bs'
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 
+const ServiceCard = ({service}) => {
+  useEffect(()=>{
+    Aos.init({duration:2000})
+  },[])
 
-const serviceCard = ({service}) => {
-    const {id,name,image,location,price,short_description} = service;
+    const {id,name,image,location,price,short_description,fade} = service;
    
     return (
         <div>
-        <div className="card bg-pink-200 shadow-xl cursor-pointer transform hover:scale-105 duration-500">
+        <div className="card bg-pink-200 shadow-xl cursor-pointer transform hover:scale-105 duration-500" data-aos={fade}>
   <figure><img className="h-52 w-full" src={image} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">{name}</h2>
@@ -38,4 +45,7 @@ const serviceCard = ({service}) => {
     );
 };
 
-export default serviceCard;
+ServiceCard.propTypes = {
+  service:PropTypes.object
+}
+export default ServiceCard;

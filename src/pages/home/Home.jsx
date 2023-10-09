@@ -9,7 +9,7 @@ import Contact from "../../components/contact/Contact";
 
 const Home = () => {
     const services = useLoaderData();
-
+   
     return (
         <div>
             <Banner></Banner>

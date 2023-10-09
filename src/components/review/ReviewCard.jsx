@@ -1,13 +1,19 @@
 import PropTypes from 'prop-types';
 import { AiFillStar } from 'react-icons/ai';
-
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 
 const ReviewCard = ({service}) => {
-    const {review,rating,profile_pic,date,reviewer} = service
+    useEffect(()=>{
+        Aos.init({duration:2000})
+    },[])
+
+    const {review,rating,profile_pic,date,reviewer,fade} = service
     return (
         <>
           
-            <div className="flex flex-col gap-4 bg-pink-200 p-4 rounded-md shadow-md cursor-pointer transform hover:scale-105 duration-500">
+            <div className="flex flex-col gap-4 bg-pink-200 p-4 rounded-md shadow-md cursor-pointer transform hover:scale-105 duration-500" data-aos={fade}>
                 
                 <div className="flex justify justify-between">
                     <div className="flex justify-between items-center gap-4">

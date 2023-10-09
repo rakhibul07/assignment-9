@@ -6,7 +6,7 @@ const ServiceDetails = ({ service }) => {
     return (
         <div className='bg-pink-100 px-5 py-4 lg:px-0 lg:py-0'>
             <div className='md:flex justify-center items-center gap-6'>
-                <img className='h-[75vh] md:w-1/2' src={image} alt={name} />
+                <img className='h-[50vh] lg:h-[75vh] w-full md:w-1/2' src={image} alt={name} />
                 <div className='text-justify px-4 py-4'>
                     <h1 className='text-2xl font-semibold'>{name}</h1>
                     <p className='text-sm py-4'>{description}</p>
